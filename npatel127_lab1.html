@@ -15,13 +15,13 @@
         </div>
     </header>
 
-    <div id="cal_box">
+    <div class="cal_box">
         <p>Enter Subtotal and Tax Rate and click the Calculate button to show the sales 
             tax amount and the total. Click the clear button to clear out all form fields.
             Tax rate should be a percentage but do not enter a % sign in the tax rate box.
         </p>
 
-        <div>
+        <div id="fields">
             <label for="subtotal">Subtotal:</label>
             <input type="text" id="subtotal" name="subtotal">
 
@@ -33,10 +33,10 @@
 
             <label for="total">Total:</label>
             <input type="text" id="total" name="total" disabled>
-            
+
             <div id="buttons">
-                <button type="button">Calculate Tax and Total</button>
-                <button type="reset">Clear</button>
+                <button type="button" id="b1">Calculate Tax and Total</button>
+                <button type="reset" id="b2">Clear</button>
             </div>
         </div>
     </div>
