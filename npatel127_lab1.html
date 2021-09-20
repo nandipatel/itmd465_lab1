@@ -12,8 +12,28 @@
         <h3>ITMD-465 Lab 1 - Nandi Patel - npatel127@hawk.iit.edu</h3>
         <h1>Sales Tax Calculator</h1>
     </header>
-    <div id="box2">
-        <p>Enter Subtotal and Tax Rate and click the Calculate button to show</p>
+
+    <div id="cal_box">
+        <p>Enter Subtotal and Tax Rate and click the Calculate button to show the sales 
+            tax amount and the total. Click the clear button to clear out all form fields.
+            Tax rate should be a percentage but do not enter a % sign in the tax rate box.
+        </p>
+
+        <div id="in_out">
+            <label for="subtotal">Subtotal:</label>
+            <input type="text" id="subtotal" name="subtotal">
+
+            <label for="tax_rate">Tax Rate:</label>
+            <input type="text" id="tax_rate" name="tax_rate">
+
+            <label for="sales_tax">Sales Tax:</label>
+            <input type="text" id="sales_tax" name="sales_tax">
+
+            <label for="total">Total:</label>
+            <input type="text" id="Total" name="total">
+        </div>
     </div>
+
+    <img src="sales.png">
 </body>
 </html>
