@@ -4,8 +4,8 @@ body {
 
 /* header css */
 header div {
-    padding: 5px 20px;
-    margin: 30px 0;
+    padding: 5px 15px;
+    margin: 25px 0;
     border: none;
     background-color:#DCAE96;
 }
@@ -20,7 +20,7 @@ h1, h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2.9em;
 }
 h3 {
     font-size: 1.5em;
