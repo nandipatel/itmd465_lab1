@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <h3>ITMD-465 Lab 1 - Nandi Patel - npatel127@hawk.iit.edu</h3>
-        <h1>Sales Tax Calculator</h1>
+        <div>
+            <h3>ITMD-465 Lab 1 - Nandi Patel - npatel127@hawk.iit.edu</h3>
+            <h1>Sales Tax Calculator</h1>
+        </div>
     </header>
 
     <div id="cal_box">
@@ -19,7 +21,7 @@
             Tax rate should be a percentage but do not enter a % sign in the tax rate box.
         </p>
 
-        <div id="in_out">
+        <div>
             <label for="subtotal">Subtotal:</label>
             <input type="text" id="subtotal" name="subtotal">
 
@@ -27,13 +29,15 @@
             <input type="text" id="tax_rate" name="tax_rate">
 
             <label for="sales_tax">Sales Tax:</label>
-            <input type="text" id="sales_tax" name="sales_tax">
+            <input type="text" id="sales_tax" name="sales_tax" disabled>
 
             <label for="total">Total:</label>
-            <input type="text" id="Total" name="total">
-
-            <button type="button">Calculate Tax and Total</button>
-            <button type="reset">Clear</button>
+            <input type="text" id="total" name="total" disabled>
+            
+            <div id="buttons">
+                <button type="button">Calculate Tax and Total</button>
+                <button type="reset">Clear</button>
+            </div>
         </div>
     </div>
 
@@ -41,6 +45,6 @@
     <footer>
         &copy; Nandi Patel | npatel127@hawk.iit.edu
     </footer>
-    
+
 </body>
 </html>
