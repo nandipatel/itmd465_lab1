@@ -36,7 +36,7 @@ h3 {
     margin-right: auto;
     width: 60%; 
     font-family: monospace;
-    font-size: 1.30em;
+    font-size: 1.35em;
     font-weight: bold;
 }
 label{
@@ -47,7 +47,7 @@ input[type=text]{
     margin: 8px 0;
     display: inline-block;
     border: 2px solid rgb(65, 65, 65);
-    width: 80%;
+    width: 95%;
     box-sizing: border-box;
 }
 #subtotal, #tax_rate{
@@ -65,19 +65,20 @@ input[type=text]{
 button[type=reset], button[type=button] {
     font-family: monospace;
     font-size: 0.95em;
+    font-weight: bold;
     cursor: pointer;
     display:inline;
     background-color: floralwhite;
-    padding: 5px 12px;
+    padding: 10px 15px;
 }
 img {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 25%;
+    width: 27%;
 }
 footer{
     text-align: center;
-    font-size: 1.04em;
+    font-size: 1.07em;
 }
