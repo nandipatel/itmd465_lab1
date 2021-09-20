@@ -4,10 +4,10 @@ body {
 
 /* header css */
 header div {
-    padding: 5px 15px;
-    margin: 25px 0;
     border: none;
     background-color:#DCAE96;
+    margin: 25px 0;
+    padding: 5px 15px;
 }
 header {
     text-align: center;
@@ -15,15 +15,15 @@ header {
     margin-right: auto;
     width: 95%;
 }
-h1, h3 {
+h1{
+    font-size: 2.9em;
     background-color: #DCAE96;
     font-family: 'Courier New', Courier, monospace;
 }
-h1{
-    font-size: 2.9em;
-}
 h3 {
     font-size: 1.5em;
+    background-color: #DCAE96;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
